@@ -43,5 +43,5 @@
 * Generic Parameters and Arguments
 * Summary of the Grammar
 
-Revision History
+**Revision History**
 * Document Revision History
