@@ -16,7 +16,7 @@ var korea = someDictionary["kr"]	// 한국
 ##서브스크립트 문법
 * 인스턴스 이름 뒤에 [ ] 붙이고, [ ]안에 하나이상의 값을 써서 사용
 * subscript 키워드를 써서 서브스크립트를 정의
-* 인스턴스 메서드처럼 하나 이상의 파라미터를 입력하고 값을 리턴
+* 인스턴스 메서드처럼 하나 이상의 파라미터를 입력하고 값을 리턴하는 형태
 * 계산 프로퍼티처럼 read-write, read-only
 
 ```
@@ -67,7 +67,7 @@ var firstProduct = myClass[0]	// 에러
 // 서브스크립트의 파라미터 자료형 변경
 class MyClass {
     subscript(index: Int) -> String {
-        return ""
+        return "Swift Study"
     }
     
     subscript(index: UInt) -> Double {
