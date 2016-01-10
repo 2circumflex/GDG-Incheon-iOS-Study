@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=d3eBO53hXoE
 https://www.youtube.com/watch?v=cN0x2TmuMac
 
 * 새로워진 애플 스위프트 2.0의 특징<br>
-https://www.youtube.com/watch?v=AGRbKDdfL6c
+https://www.youtube.com/watch?v=qSOKuC3cOmA
 
 * 애플 스위프트의 7가지 특징<br>
 https://www.youtube.com/watch?v=AGRbKDdfL6c
