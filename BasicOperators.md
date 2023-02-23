@@ -1,7 +1,7 @@
-#Basic Operators
+# Basic Operators
 Swift는 대부분의 표준 C 연산자를 제공하고 일반적인 코딩 에러를 제거하기 위한 몇몇의 기능을 향상시켰습니다.
 
-### Assignment Operator (할당 연산자)
+## Assignment Operator (할당 연산자)
 * =
 
 Swift는 C, Objective-C 와 다르게 할당 연산의 결과를 반환하지 않습니다.
@@ -37,7 +37,7 @@ or
 var (x, y) = (1, 2)		// x = 1, y = 2
 ```
 
-###Arithmetic Operators (산술 연산자)
+## Arithmetic Operators (산술 연산자)
 * +
 * -
 * *
@@ -60,7 +60,7 @@ var str = "hello, " + "world"
 // hello, world
 ```
 
-###Overflow Operator (오버플로우 연산자)
+## Overflow Operator (오버플로우 연산자)
 * &+
 * &-
 * &*
@@ -76,7 +76,7 @@ var underflowNum: Int = num &- 1
 ```
 
 
-###Remainder Operator (나머지 연산자)
+## Remainder Operator (나머지 연산자)
 * %
 
 Swift는 정수뿐만 아니라 실수도 나머지 연산을 지원합니다.
@@ -86,7 +86,7 @@ Swift는 정수뿐만 아니라 실수도 나머지 연산을 지원합니다.
 // 0.5
 ```
 
-###Nil Coalescing Operator
+## Nil Coalescing Operator
 * ??
 
 옵셔널(Optional) 형식과 함께 사용할 수 있는 새로운 연산자.
@@ -116,11 +116,11 @@ colorNameToUse = userDefinedColorName ?? defaultColor
 // colorNameToUse = "green"
 ```
 
-###Range Operators (범위 연산자)
+## Range Operators (범위 연산자)
 * ... (Closed Range Operator)
 * ..< (Half-Open Range Operator)
 
-######(Closed Range Operator)
+### (Closed Range Operator)
 a...b
 a에서 b까지의 범위를 정의(a와 b의 값을 포함).
 a의 값이 b보다 크면 안됩니다.
@@ -142,7 +142,7 @@ for index in 1...5 {
 // 5 times 5 is 25
 ```
 
-######..< (Half-Open Range Operator)
+### (Half-Open Range Operator)
 a..<b
 a에서 b까지의 범위를 정의(b는 포함되지 포함 안됨)
 0을 기반으로한 리스트 또는 배열을 작업할때 유용.
@@ -159,10 +159,7 @@ for i in 0..<count {
 // Person 4 is called Jack
 ```
 
-
-
-<br>
-###Basic Operator 목록
+## Basic Operator 목록
 
 연산자|명칭|사용 방법
 ----|---|-------
@@ -172,15 +169,11 @@ for i in 0..<count {
 %   | 나머지 연산자<br>(Remainder Operator) | a % b
 ++  | 증가 연산자<br>(Increment Operator)  | a\++<br>\++a
 \-- | 감소 연산자<br>(Decrement Operator)  | a\--<br>\--a
--   | 단항 빼기 연산자<br>(Unary Minus Operator) | -a
-+   | 단항 더하기 연산자<br>(Unary Plus Operator) | +a
+`-`   | 단항 빼기 연산자<br>(Unary Minus Operator) | -a
+`+`   | 단항 더하기 연산자<br>(Unary Plus Operator) | +a
 ==<br>!=<br>><br><<br>>=<br><= | 비교 연산자<br>(Comparison Operator) | a == b<br>a != b<br>a > b<br>a < b<br>a >= b<br>a <= b
 ?: | 삼항 연산자<br>(Ternary Conditional Operator) | a ? b : c
 ?? | (Nil Coalescing Operator) | a ?? b
 ...<br>..< | 범위 연산자<br>(Range Operator) | a...b<br>a..<b
 !<br>&&<br>&#124;&#124; | 논리 연산자<br>(Logical Operator) | !a<br>a && b<br>a &#124;&#124; b
 +=<br>-=<br>*=<br>/=<br>%=<br><<=<br>>>=<br>&=<br>^=<br>&#124;=<br>&&=<br>&#124;&#124;= | 복합 대입 연산자<br>(Compound Assignment Operator) | a += b<br>a -= b<br>a *= b<br>a /= b<br>a %= b<br>a <<= b<br>a >>= b<br>a &= b<br>a ^= b<br>a &#124;= b<br>a &&= b<br>a &#124;&#124;= b
-
-
-
-

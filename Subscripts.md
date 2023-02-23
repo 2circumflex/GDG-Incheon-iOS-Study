@@ -1,4 +1,4 @@
-#Subscripts
+# Subscripts
 
 ## 서브스크립트는..
 * 컬렉션, 리스트, 시퀀스의 멤버 요소에 접근하기 위한 단축키(shortcuts)
@@ -13,7 +13,7 @@ let someDictionary = ["kr": "한국", "us": "미국"]
 var korea = someDictionary["kr"]	// 한국
 ```
 
-##서브스크립트 문법
+## 서브스크립트 문법
 * 인스턴스 이름 뒤에 [ ] 붙이고, [ ]안에 하나이상의 값을 써서 사용
 * subscript 키워드를 써서 서브스크립트를 정의
 * 인스턴스 메서드처럼 하나 이상의 파라미터를 입력하고 값을 리턴하는 형태
@@ -38,7 +38,7 @@ subscript(index: Int) -> Int {
 }
 ```
 
-##서브스크립트 옵션
+## 서브스크립트 옵션
 * 파라미터 개수를 제한하지 않음
 * 파라미터, 리턴 타입은 어떤 타입이든 가능
 * 변수(Variable) 파라미터, 가변 인자(Variadic) 파라미터 사용 가능
@@ -80,7 +80,7 @@ var firstProduct = myClass[0]	// "Swift Study"
 var d: Double = myClass[0]		// 0.0
 ```
 
-##예제
+## 예제
 
 TimesTable 구조체 읽기 전용 서브스크립트 구현 예 (정수의 n배)
 
@@ -122,8 +122,7 @@ struct Matrix {
     }
 }
 ```
-<br>
-####참고
+## 참고
 * Objective-C 개발자를 위한 Swift
 * [Apple - The Swift Programming Language (Subscripts)](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Subscripts.html#//apple_ref/doc/uid/TP40014097-CH16-ID305)
 
